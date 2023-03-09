@@ -4,8 +4,16 @@ import { Poppins, Cabin } from 'next/font/google'
 
 import 'styles/globals.scss'
 
-const poppins = Poppins({ weight: ["400", "600"], subsets: ['latin'], variable: '--font-poppins' })
-const cabin = Cabin({ weight: ["600"], subsets: ['latin'], variable: '--font-cabin' })
+const poppins = Poppins({
+  weight: ['400', '600'],
+  subsets: ['latin'],
+  variable: '--font-poppins'
+})
+const cabin = Cabin({
+  weight: ['600'],
+  subsets: ['latin'],
+  variable: '--font-cabin'
+})
 
 interface LayoutProps {
   children: ReactNode
